@@ -8,7 +8,7 @@
     "outDir": "build",
     "allowSyntheticDefaultImports": true,
     "importHelpers": true,
-    "alwaysStrict": true,
+    "alwaysStrict": false,
     "sourceMap": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
@@ -19,5 +19,5 @@
     "noImplicitThis": false,
     "strictNullChecks": false
   },
-  "include": ["src/**/*", "__tests__/**/*"]
+  "include": ["src/main.ts"]
 }
